@@ -1,0 +1,17 @@
+#ifndef __BLEFT_H__
+#define __BLEFT_H__
+#define __BLEFT_H__DEBUG 1
+
+#include "Behavior.h"
+#include "MotorDriver.h"
+
+class BLeft: public Behavior
+{
+private:
+
+public:
+	BLeft();
+    virtual void execute();
+};
+
+#endif
